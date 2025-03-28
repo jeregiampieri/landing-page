@@ -207,5 +207,14 @@ su a */
     width: 30%;
 }
 
+.tittle-btn-speakers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+
+}   
+
 
 
