@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Uso de favicons para tener un logo al lado del nombre de
+     la pagina -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav-icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav-icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav-icons/favicon-16x16.png">
+    <link rel="manifest" href="./fav-icons/site.webmanifest">
+
+</head>
+
+<body>
+     <!-- Body {Header - Main - Footer} -->
+
+    <!-- Navbar -->
+     <header class="header">
+        <img src="./img/logo.png" alt="Logo de NUCBA" class="logo-imagen">
+        <!-- Input(checkbox) + label para hacer el desplazamiento del menu -->
+        <label for="menu-toggle" class="menu-toggle">
+            <img src="./img/menu.png" class="menu-imagen">
+        </label>
+        <input type="checkbox" id="menu-toggle">
+        <nav class="nav-bar">
+            <ul class="nav-bar-list">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about-us">Nosotros</a></li>
+                <li><a href="#lineup">Line-up</a></li>
+                <li><a href="#speakers">Speakers</a></li>
+            </ul>
+        </nav>
+     </header>
+     <!-- Main -->
+      <main class="main">
+        <!-- Section 1: Hero -->
+        <section class="section" id="hero">
+            <div class="slogan-container">
+                <div class="text-container">
+                    <h1 class="section-title"><span class="span-yellow">Javascript </span>Summit 2022</h1>
+                    <p class="section-p">Nucba Summit sobre Javascript</p>
+                </div>
+                <button class="primary-button">Ver Speakers</button>
+            </div>
+            <!-- Imagen del hero -->
+            <img src="./img/hero-img.png" alt="Logo de JS" class="hero-imagen" >
+        </section>
+      </main>
+
+    
+</body>
+
+</html>
