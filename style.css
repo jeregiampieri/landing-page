@@ -209,12 +209,57 @@ su a */
 
 .tittle-btn-speakers{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
+    width: 100%;
+}
+
+#speakers{
+    display: flex;
+    flex-direction: column;
+    gap: max(120px, 10%);
+    width: 100%;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 40%;
     gap: 100px;
+}
 
-}   
+.card-speaker{
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 10px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.text-card h3{
+    font-weight: 600;
+}
+
+/* Estoy agarrando el primer card y de ese mismo
+estoy agarrando la imagen (la estoy definiendo)*/
+.card-speaker:first-child .imagen-card{
+    background-image: url(./img/card-1.jpg);
+}
+
+.imagen-card{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+}
 
 
