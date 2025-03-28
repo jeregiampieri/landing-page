@@ -227,7 +227,6 @@ su a */
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    position: relative;
     width: 40%;
     gap: 100px;
 }
@@ -243,23 +242,40 @@ su a */
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+    height: 150px;
+
+}
+
+.text-card{
+    display: flex;
+    margin-top: 50px;
 }
 
 .text-card h3{
     font-weight: 600;
 }
 
-/* Estoy agarrando el primer card y de ese mismo
-estoy agarrando la imagen (la estoy definiendo)*/
-.card-speaker:first-child .imagen-card{
-    background-image: url(./img/card-1.jpg);
-}
 
+/* Aca estoy definiendo las propiedades del contenedor div
+que justamente va a contener la imagen, es decir, estoy definiendo
+el 'envase' */
 .imagen-card{
     width: 120px;
     height: 120px;
     border-radius: 50%;
     background-color: white;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+}
+
+/* Aca únicamente voy a agregar la imagen que va en el div */
+/* Estoy agarrando el primer card y de ese mismo
+estoy agarrando la imagen (la estoy definiendo)*/
+.card-speaker:first-child .imagen-card{
+    background-image: url(./img/card-1.jpg);
 }
 
 
