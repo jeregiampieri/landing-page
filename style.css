@@ -243,6 +243,7 @@ su a */
     text-align: center;
     position: relative;
     height: 150px;
+    border-radius: 5px;
 }
 
 .color{
@@ -303,7 +304,40 @@ especifico quiero utilizar */
     display: none;
 }
 
+#about-us{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    position: relative;
+}
 
+.imagen-about{
+    width: min(460px,90%);
+    height: 380px;
+    background-image: url(./img/about.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
 
+.text-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    flex-wrap: wrap;
+    gap: 20px;
+    line-height: 20px;
+    padding: 10px;
+}
 
+.container-btns{
+    display: flex;
+    gap: 15px;
+}
 
