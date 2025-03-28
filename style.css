@@ -78,7 +78,7 @@ button:hover{
 }
 
 .section-p-small{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
 }
 
@@ -236,7 +236,6 @@ su a */
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    border-radius: 0.3rem;
     padding: 10px;
     width: 200px;
     justify-content: center;
@@ -244,18 +243,22 @@ su a */
     text-align: center;
     position: relative;
     height: 150px;
+}
 
+.color{
+    color: black;
 }
 
 .text-card{
     display: flex;
+    flex-direction: column;
     margin-top: 50px;
 }
 
 .text-card h3{
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 15px;
 }
-
 
 /* Aca estoy definiendo las propiedades del contenedor div
 que justamente va a contener la imagen, es decir, estoy definiendo
@@ -268,7 +271,7 @@ el 'envase' */
     background-size: cover;
     background-position: center;
     position: absolute;
-    top: 0px;
+    bottom: 80px;
 }
 
 /* Aca únicamente voy a agregar la imagen que va en el div */
@@ -277,5 +280,28 @@ estoy agarrando la imagen (la estoy definiendo)*/
 .card-speaker:first-child .imagen-card{
     background-image: url(./img/card-1.jpg);
 }
+/* Recordar que con nth-child(n) elijo que child en
+especifico quiero utilizar */
+.card-speaker:nth-child(2) .imagen-card{
+    background-image: url(./img/card-2.png);
+}
+
+.card-speaker:nth-child(3) .imagen-card{
+    background-image: url(./img/card-3.jpg);
+}
+
+.card-speaker:nth-child(4) .imagen-card{
+    background-image: url(./img/card-4.jpg);
+}
+
+.card-speaker:nth-child(5) .imagen-card{
+    background-image: url(./img/card-5.png);
+}
+
+/* Botón que se activa cuando se hace el web responsive */
+.responsive-btn{
+    display: none;
+}
+
 
 
