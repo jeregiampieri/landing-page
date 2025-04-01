@@ -342,7 +342,26 @@ especifico quiero utilizar */
     gap: 15px;
 }
 
+/* Es una segunda clase del h2 de lineup
+lo use para achicar el height del titulo */
 .prueba{
     font-weight: 400;
 }
 
+.line-up-tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+}
+
+#lineup{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.lineup-card{
+    
+}
