@@ -99,6 +99,7 @@ button:hover{
     width: 100%;
     background-color: var(--black);
     background-image: var(--bg-img);
+    z-index: 2;
 }
 
 .logo-imagen{
