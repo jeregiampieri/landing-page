@@ -364,6 +364,12 @@ lo use para achicar el height del titulo */
     width: 100%;
 }
 .h3-card{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.time-card{
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -392,3 +398,4 @@ lo use para achicar el height del titulo */
 .color-card{
     color: #131415;
 }
+
