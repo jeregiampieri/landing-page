@@ -421,6 +421,43 @@ lo use para achicar el height del titulo */
     background-image: var(--bg-img);
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 30px;
+}
+
+.footer-text{
+    text-align: center;
+    max-width: 450px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.footer-other{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    font: 14px;
+    min-height: 100px;
+}
+
+.footer-sociales{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.footer-sociales i{
+    cursor: pointer;
 }
 
