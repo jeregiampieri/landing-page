@@ -361,7 +361,34 @@ lo use para achicar el height del titulo */
     display: flex;
     flex-direction: column;
     gap: 50px;
+    width: 100%;
 }
+.h3-card{
+    font-weight: 400;
+}
+
+.line-up-container-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
 .lineup-card{
-    
+    display: flex;
+    background-color: var(--yellow);
+    border-radius: 5px;
+    width: min(90vw, 700px);
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 0px 30px;
+    height: 100px;
+}
+
+.color-card{
+    color: #131415;
 }
