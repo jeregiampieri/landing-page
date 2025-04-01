@@ -12,6 +12,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./fav-icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./fav-icons/favicon-16x16.png">
     <link rel="manifest" href="./fav-icons/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 </head>
 
@@ -171,11 +175,29 @@
             </section>
       </main>
       <!-- Footer -->
-       <footer class="footer">
-        
-       </footer>
-
-    
+       <!-- Este div lo hago para poder usarlo de contenedor para alinear
+        al footer junto con el span, que lo utilizo para hacer la linea amarilla -->
+       <div class="container-footer">
+            <span class="linea-yellow"></span>
+            <footer class="footer"> 
+                <div class="footer-text">
+                    <p>Felicitaciones por terminar el modulo de diseño web.
+                        Bienvenido al maravillos mundo de <span class="span-yellow">Javascript</span>
+                    </p>
+                </div>
+                <div class="footer-other">
+                    <div class="footer-sociales">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <p class="footer-copyrgiht"><span class="span-yellow">NucbaJs</span> 
+                    Summit @ 2022</p>
+                    <ul>
+                        <li><a href="#">Privacidad</a></li>
+                        <li><a href="#">Términos de uso</a></li>
+                        <li><a href="#">Contactanos</a></li>
+                    </ul>
+            </footer>
+        </div>
 </body>
-
 </html>

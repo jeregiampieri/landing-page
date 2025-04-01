@@ -399,3 +399,28 @@ lo use para achicar el height del titulo */
     color: #131415;
 }
 
+/* .linea-yellow{
+    height: 3px;
+    width: min(90%, 600px);
+    margin-top: 80px;
+    background-color: var(--yellow);
+} */
+
+.linea-yellow{
+    background-color: var(--yellow);
+    width: min(90%,600px);
+    height: 2px;
+    margin-top: 50px;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--black);
+    background-image: var(--bg-img);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
