@@ -471,7 +471,7 @@ lo use para achicar el height del titulo */
 
 @media (max-width:992px){
     .header{
-        width: 70%;
+        width: 100%;
         justify-content: space-between;
     }
 
