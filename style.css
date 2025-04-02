@@ -468,31 +468,3 @@ lo use para achicar el height del titulo */
 .footer-terms li a{
     color: white;
 }
-
-@media (max-width:768px){
-    .header{
-        width: 70%;
-    }
-
-    .menu-imagen{
-        display: flex;
-        right: -40px;
-    }
-
-    .nav-bar-list{
-        gap: 20px;
-    }
-
-    .text-container h1{
-        font-size: 40px;
-    }
-
-    .text-container p{
-        font-size: 10px;
-    }
-
-    /* hero */
-    .hero-imagen{
-        width: 10%;
-    }
-}
