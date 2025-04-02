@@ -107,7 +107,7 @@ body{
 
 .section-title{
     font-weight: 600;
-    font-size: 42px;
+    font-size: 3.5rem;
 }
 
 .section-p{
@@ -116,7 +116,7 @@ body{
 }
 
 .section-p-small{
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -229,7 +229,7 @@ su a */
 
 .text-container h1{
     font-weight: 600;
-    font-size: 65px;
+    font-size: 3.5rem;
     line-height: 70px;
     color: white;
 }
@@ -242,7 +242,7 @@ su a */
 }
 
 .hero-imagen{
-    width: 30%;
+    width: 25%;
 }
 
 .tittle-btn-speakers{
@@ -370,7 +370,7 @@ especifico quiero utilizar */
     text-align: center;
     width: 50%;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
     line-height: 20px;
     padding: 10px;
 }
@@ -510,12 +510,6 @@ lo use para achicar el height del titulo */
 }
 
 @media screen and (max-width: 1250px) {
-    /* .cards-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    } */
     .cards-container{
         width: 50%;
     }
@@ -548,5 +542,31 @@ lo use para achicar el height del titulo */
 @media screen and (max-width:832px){
     .cards-container{
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 714px){
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 725px){
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer{
+        flex-wrap: nowrap;
+    }
+
+    .footer-terms li a{
+        font-size: 0.9rem;
     }
 }
