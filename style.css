@@ -48,7 +48,26 @@ body{
     max-width: 1300px;
 }
 
-button{
+.boton-1{
+    background-color: var(--yellow);
+    border: 0px solid black;
+    /* outline: none; */
+    width: 35%;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    /* border-radius: 5px; */
+}
+
+.boton-1:hover{
+    background-color: #c79900;
+    transition: all 0.4s linear;
+}
+
+.boton-2{
     background-color: var(--yellow);
     border: 0px solid black;
     /* outline: none; */
@@ -62,7 +81,26 @@ button{
     /* border-radius: 5px; */
 }
 
-button:hover{
+.boton-2:hover{
+    background-color: #c79900;
+    transition: all 0.4s linear;
+}
+
+.boton-3{
+    background-color: var(--yellow);
+    border: 0px solid black;
+    /* outline: none; */
+    width: 20%;
+    height: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    /* border-radius: 5px; */
+}
+
+.boton-3:hover{
     background-color: #c79900;
     transition: all 0.4s linear;
 }
@@ -176,7 +214,7 @@ su a */
     display: flex;
     flex-direction: column;
     gap: 15px;
-    max-width: 550px;
+    width: 50%;
 }
 
 #hero{
@@ -315,8 +353,8 @@ especifico quiero utilizar */
 }
 
 .imagen-about{
-    width: min(460px,90%);
-    height: 380px;
+    width: 60%;
+    height: 80%;
     background-image: url(./img/about.png);
     background-size: cover;
     background-position: center;
@@ -407,7 +445,7 @@ lo use para achicar el height del titulo */
 
 .linea-yellow{
     background-color: var(--yellow);
-    width: min(90%,600px);
+    width: 90%;
     height: 2px;
     margin-top: 50px;
 }
@@ -427,7 +465,7 @@ lo use para achicar el height del titulo */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 1300px;
+    width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
     gap: 70px;
@@ -436,7 +474,7 @@ lo use para achicar el height del titulo */
 
 .footer-text{
     text-align: center;
-    max-width: 700px;
+    width: 50%;
     font-weight: 400;
     font-size: 24px;
 }
@@ -476,16 +514,33 @@ lo use para achicar el height del titulo */
         justify-content: center;
         align-items: center;
     } */
-
     .cards-container{
         width: 50%;
     }
 }
 
 @media screen and (max-width: 1000px){
-
     .cards-container{
         width: 60%;
     }
 
+}
+
+@media screen and (max-width: 924px){
+    .footer-text{
+        text-align: center;
+        width: 35%;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .imagen-about{
+        width: 60%;
+        height: 70%;
+        background-image: url(./img/about.png);
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px;
+    }
+
+    
 }
